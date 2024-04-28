@@ -1,0 +1,81 @@
+package impostor;
+
+import java.util.Collection;
+import java.util.HashMap;
+
+import frsf.cidisi.faia.agent.Perception;
+import frsf.cidisi.faia.agent.search.SearchBasedAgentState;
+
+public class ImpostorAgentState extends SearchBasedAgentState{
+
+	public static final String Administration = "Administration";
+	public static final String Cafeteria = "Cafeteria";
+	public static final String Communications = "Communications";
+	public static final String Electrical = "Electrical";
+	public static final String Hallway1 = "Hallway1";
+	public static final String Hallway2 = "Hallway2";
+	public static final String Hallway3 = "Hallway3";
+	public static final String Hallway4 = "Hallway4";
+	public static final String Hallway5 = "Hallway5";
+	public static final String Hallway6 = "Hallway6";
+	public static final String Hallway7 = "Hallway7";
+	public static final String LowerEngine = "LowerEngine";
+	public static final String Medbay = "Medbay";
+	public static final String Navigation = "Navigation";
+	public static final String Oxygen = "Oxygen";
+	public static final String Reactor = "Reactor";
+	public static final String Security = "Security";
+	public static final String Storage = "Storage";
+	public static final String UpperEngine = "UpperEngine";
+	public static final String Weapons = "Weapons";
+	
+	private HashMap<String, Collection<String>> knownMap;
+	/**
+     * Actual agent position
+     */
+    String posicionAgente;
+    private int tripulantesVivos;
+    private int tareas;
+    private int enrgia;
+    
+    
+    public ImpostorAgentState(HashMap<String, Collection<String>> map, int tripulantesVivos, int tareas, int energia) {
+    	this.knownMap = map;
+    	this.tripulantesVivos = tripulantesVivos;
+    	this.tareas = tareas;
+    	this.enrgia = energia;
+    }
+
+	
+	
+	@Override
+	public boolean equals(Object obj) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public SearchBasedAgentState clone() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void updateState(Perception p) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void initState() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

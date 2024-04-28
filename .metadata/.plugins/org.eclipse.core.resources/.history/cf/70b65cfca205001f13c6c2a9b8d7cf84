@@ -1,0 +1,7 @@
+package tpIAG4.amongus;
+
+import frsf.cidisi.faia.agent.search.SearchBasedAgent;
+
+public class ImpostorAgent extends SearchBasedAgent{
+
+}

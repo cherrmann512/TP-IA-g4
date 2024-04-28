@@ -1,0 +1,7 @@
+package impostor;
+
+import frsf.cidisi.faia.environment.Environment;
+
+public class ImpostorEnvironment extends Environment{
+
+}

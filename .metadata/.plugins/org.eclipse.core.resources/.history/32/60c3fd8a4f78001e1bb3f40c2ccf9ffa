@@ -1,0 +1,37 @@
+package parcial.semaforos;
+
+import java.util.Random;
+
+public class Colaborador implements Runnable{
+
+	private int id;
+	
+	public Colaborador(int id) {
+		this.id = id;
+	}
+	
+	@Override
+	public void run() {
+		
+		while(true) {
+			Principal.altar.acquireUninterruptibly();
+			System.out.println("Colaborador id: "+this.id +" saca una vela");
+			Principal.visitantes.release();
+			Principal.altar.acquireUninterruptibly(); //si aca saca vela suma colaboracion
+			Principal.visitantes.release();
+			System.out.println("Colborador ID "+this.id +"suma colaborcion");
+			Principal.cantidadColaboradores++;
+			System.out.println("total colaboraciones: "+Principal.cantidadColaboradores);
+			
+			
+			try {
+				Thread.sleep(new Random().nextInt(1000));
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		
+	}
+
+}

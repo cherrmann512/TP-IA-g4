@@ -1,0 +1,865 @@
+<Nodonull>Id="0" Action="null"  position="(1,2)" energy="50"
+world="[ 
+[ * 0 2 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * * * *  ]
+ ]"<NodoEat>Id="1" Action="Eat"  position="(1,2)" energy="50"
+world="[ 
+[ * 0 2 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * * * *  ]
+ ]"<NodoGoUp>Id="5" Action="GoUp"  position="(0,2)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * * * *  ]
+ ]"<NodoGoUp>Id="8" Action="GoUp"  position="(3,2)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * * 0 *  ]
+ ]"<NodoGoLeft>Id="11" Action="GoLeft"  position="(3,1)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * 0 0 *  ]
+ ]"<NodoGoLeft>Id="14" Action="GoLeft"  position="(3,0)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ 0 0 0 *  ]
+ ]"<NodoGoLeft>Id="18" Action="GoLeft"  position="(3,3)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoUp>Id="22" Action="GoUp"  position="(2,3)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 0  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoRight>Id="25" Action="GoRight"  position="(2,0)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 2 0 0  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoRight>Id="27" Action="GoRight"  position="(2,1)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 2 0 0  ]
+[ 0 0 0 0  ]
+ ]"<NodoEat>Id="29" Action="Eat"  position="(2,1)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoRight>Id="32" Action="GoRight"  position="(2,2)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoRight>Id="34" Action="GoRight"  position="(2,3)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoRight>Id="36" Action="GoRight"  position="(2,0)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoDown>Id="38" Action="GoDown"  position="(3,0)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoRight>Id="39" Action="GoRight"  position="(3,1)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoRight>Id="41" Action="GoRight"  position="(3,2)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoRight>Id="43" Action="GoRight"  position="(3,3)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoDown>Id="45" Action="GoDown"  position="(0,3)" energy="50"
+world="[ 
+[ * 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoRight>Id="46" Action="GoRight"  position="(0,0)" energy="50"
+world="[ 
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoRight><NodoGoDown>Id="47" Action="GoDown"  position="(1,3)" energy="50"
+world="[ 
+[ * 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoDown></NodoGoDown></NodoGoRight><NodoGoDown>Id="44" Action="GoDown"  position="(0,2)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoDown></NodoGoRight><NodoGoDown>Id="42" Action="GoDown"  position="(0,1)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoDown></NodoGoRight><NodoGoDown>Id="40" Action="GoDown"  position="(0,0)" energy="50"
+world="[ 
+[ 0 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoDown></NodoGoDown></NodoGoRight><NodoGoDown>Id="37" Action="GoDown"  position="(3,3)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoDown></NodoGoRight><NodoGoDown>Id="35" Action="GoDown"  position="(3,2)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoDown></NodoGoRight><NodoGoDown>Id="33" Action="GoDown"  position="(3,1)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoDown></NodoEat><NodoGoRight>Id="30" Action="GoRight"  position="(2,2)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 2 0 0  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoRight><NodoGoDown>Id="31" Action="GoDown"  position="(3,1)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 2 0 0  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoDown></NodoGoRight><NodoGoDown>Id="28" Action="GoDown"  position="(3,0)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 2 0 0  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoDown></NodoGoRight><NodoGoDown>Id="26" Action="GoDown"  position="(3,3)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 0  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoDown></NodoGoUp><NodoGoRight>Id="23" Action="GoRight"  position="(3,0)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoRight><NodoGoDown>Id="24" Action="GoDown"  position="(0,3)" energy="50"
+world="[ 
+[ * 0 0 0  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoDown></NodoGoLeft><NodoGoUp>Id="19" Action="GoUp"  position="(2,0)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 2 0 *  ]
+[ 0 0 0 *  ]
+ ]"</NodoGoUp><NodoGoRight>Id="20" Action="GoRight"  position="(3,1)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ 0 0 0 *  ]
+ ]"</NodoGoRight><NodoGoDown>Id="21" Action="GoDown"  position="(0,0)" energy="50"
+world="[ 
+[ 0 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ 0 0 0 *  ]
+ ]"</NodoGoDown></NodoGoLeft><NodoGoUp>Id="15" Action="GoUp"  position="(2,1)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 0 0 *  ]
+[ * 0 0 *  ]
+ ]"</NodoGoUp><NodoGoRight>Id="16" Action="GoRight"  position="(3,2)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * 0 0 *  ]
+ ]"</NodoGoRight><NodoGoDown>Id="17" Action="GoDown"  position="(0,1)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * 0 0 *  ]
+ ]"</NodoGoDown></NodoGoLeft><NodoGoRight>Id="12" Action="GoRight"  position="(3,3)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * * 0 0  ]
+ ]"</NodoGoRight><NodoGoDown>Id="13" Action="GoDown"  position="(0,2)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * * 0 *  ]
+ ]"</NodoGoDown></NodoGoUp><NodoGoRight>Id="9" Action="GoRight"  position="(0,3)" energy="50"
+world="[ 
+[ * 0 0 0  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * * * *  ]
+ ]"</NodoGoRight><NodoGoDown>Id="10" Action="GoDown"  position="(1,2)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * * * *  ]
+ ]"</NodoGoDown></NodoGoUp><NodoGoRight>Id="6" Action="GoRight"  position="(1,3)" energy="50"
+world="[ 
+[ * 0 2 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * * * *  ]
+ ]"</NodoGoRight><NodoGoDown>Id="7" Action="GoDown"  position="(2,2)" energy="50"
+world="[ 
+[ * 0 2 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * * * *  ]
+ ]"</NodoGoDown></NodoEat><NodoGoUp>Id="2" Action="GoUp"  position="(0,2)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 2 0  ]
+[ * 2 0 *  ]
+[ * * * *  ]
+ ]"</NodoGoUp><NodoGoRight>Id="3" Action="GoRight"  position="(1,3)" energy="50"
+world="[ 
+[ * 0 2 *  ]
+[ 0 0 2 0  ]
+[ * 2 0 *  ]
+[ * * * *  ]
+ ]"</NodoGoRight><NodoGoDown>Id="4" Action="GoDown"  position="(2,2)" energy="50"
+world="[ 
+[ * 0 2 *  ]
+[ 0 0 2 0  ]
+[ * 2 0 *  ]
+[ * * * *  ]
+ ]"</NodoGoDown></Nodonull><Nodonull>Id="0" Action="null"  position="(1,2)" energy="50"
+world="[ 
+[ * 0 2 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * * * *  ]
+ ]"<NodoEat>Id="1" Action="Eat"  position="(1,2)" energy="50"
+world="[ 
+[ * 0 2 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * * * *  ]
+ ]"<NodoGoUp>Id="5" Action="GoUp"  position="(0,2)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * * * *  ]
+ ]"<NodoGoUp>Id="8" Action="GoUp"  position="(3,2)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * * 0 *  ]
+ ]"<NodoGoLeft>Id="11" Action="GoLeft"  position="(3,1)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * 0 0 *  ]
+ ]"<NodoGoLeft>Id="14" Action="GoLeft"  position="(3,0)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ 0 0 0 *  ]
+ ]"<NodoGoLeft>Id="18" Action="GoLeft"  position="(3,3)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoUp>Id="22" Action="GoUp"  position="(2,3)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 0  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoRight>Id="25" Action="GoRight"  position="(2,0)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 2 0 0  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoRight>Id="27" Action="GoRight"  position="(2,1)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 2 0 0  ]
+[ 0 0 0 0  ]
+ ]"<NodoEat>Id="29" Action="Eat"  position="(2,1)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoRight>Id="32" Action="GoRight"  position="(2,2)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoRight>Id="34" Action="GoRight"  position="(2,3)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoRight>Id="36" Action="GoRight"  position="(2,0)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoDown>Id="38" Action="GoDown"  position="(3,0)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoRight>Id="39" Action="GoRight"  position="(3,1)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoRight>Id="41" Action="GoRight"  position="(3,2)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoRight>Id="43" Action="GoRight"  position="(3,3)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoDown>Id="45" Action="GoDown"  position="(0,3)" energy="50"
+world="[ 
+[ * 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoRight>Id="46" Action="GoRight"  position="(0,0)" energy="50"
+world="[ 
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoRight><NodoGoDown>Id="47" Action="GoDown"  position="(1,3)" energy="50"
+world="[ 
+[ * 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoDown></NodoGoDown></NodoGoRight><NodoGoDown>Id="44" Action="GoDown"  position="(0,2)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoDown></NodoGoRight><NodoGoDown>Id="42" Action="GoDown"  position="(0,1)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoDown></NodoGoRight><NodoGoDown>Id="40" Action="GoDown"  position="(0,0)" energy="50"
+world="[ 
+[ 0 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoDown></NodoGoDown></NodoGoRight><NodoGoDown>Id="37" Action="GoDown"  position="(3,3)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoDown></NodoGoRight><NodoGoDown>Id="35" Action="GoDown"  position="(3,2)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoDown></NodoGoRight><NodoGoDown>Id="33" Action="GoDown"  position="(3,1)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoDown></NodoEat><NodoGoRight>Id="30" Action="GoRight"  position="(2,2)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 2 0 0  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoRight><NodoGoDown>Id="31" Action="GoDown"  position="(3,1)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 2 0 0  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoDown></NodoGoRight><NodoGoDown>Id="28" Action="GoDown"  position="(3,0)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 2 0 0  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoDown></NodoGoRight><NodoGoDown>Id="26" Action="GoDown"  position="(3,3)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 0  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoDown></NodoGoUp><NodoGoRight>Id="23" Action="GoRight"  position="(3,0)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoRight><NodoGoDown>Id="24" Action="GoDown"  position="(0,3)" energy="50"
+world="[ 
+[ * 0 0 0  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoDown></NodoGoLeft><NodoGoUp>Id="19" Action="GoUp"  position="(2,0)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 2 0 *  ]
+[ 0 0 0 *  ]
+ ]"</NodoGoUp><NodoGoRight>Id="20" Action="GoRight"  position="(3,1)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ 0 0 0 *  ]
+ ]"</NodoGoRight><NodoGoDown>Id="21" Action="GoDown"  position="(0,0)" energy="50"
+world="[ 
+[ 0 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ 0 0 0 *  ]
+ ]"</NodoGoDown></NodoGoLeft><NodoGoUp>Id="15" Action="GoUp"  position="(2,1)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 0 0 *  ]
+[ * 0 0 *  ]
+ ]"</NodoGoUp><NodoGoRight>Id="16" Action="GoRight"  position="(3,2)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * 0 0 *  ]
+ ]"</NodoGoRight><NodoGoDown>Id="17" Action="GoDown"  position="(0,1)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * 0 0 *  ]
+ ]"</NodoGoDown></NodoGoLeft><NodoGoRight>Id="12" Action="GoRight"  position="(3,3)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * * 0 0  ]
+ ]"</NodoGoRight><NodoGoDown>Id="13" Action="GoDown"  position="(0,2)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * * 0 *  ]
+ ]"</NodoGoDown></NodoGoUp><NodoGoRight>Id="9" Action="GoRight"  position="(0,3)" energy="50"
+world="[ 
+[ * 0 0 0  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * * * *  ]
+ ]"</NodoGoRight><NodoGoDown>Id="10" Action="GoDown"  position="(1,2)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * * * *  ]
+ ]"</NodoGoDown></NodoGoUp><NodoGoRight>Id="6" Action="GoRight"  position="(1,3)" energy="50"
+world="[ 
+[ * 0 2 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * * * *  ]
+ ]"</NodoGoRight><NodoGoDown>Id="7" Action="GoDown"  position="(2,2)" energy="50"
+world="[ 
+[ * 0 2 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * * * *  ]
+ ]"</NodoGoDown></NodoEat><NodoGoUp>Id="2" Action="GoUp"  position="(0,2)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 2 0  ]
+[ * 2 0 *  ]
+[ * * * *  ]
+ ]"</NodoGoUp><NodoGoRight>Id="3" Action="GoRight"  position="(1,3)" energy="50"
+world="[ 
+[ * 0 2 *  ]
+[ 0 0 2 0  ]
+[ * 2 0 *  ]
+[ * * * *  ]
+ ]"</NodoGoRight><NodoGoDown>Id="4" Action="GoDown"  position="(2,2)" energy="50"
+world="[ 
+[ * 0 2 *  ]
+[ 0 0 2 0  ]
+[ * 2 0 *  ]
+[ * * * *  ]
+ ]"</NodoGoDown></Nodonull><Nodonull>Id="0" Action="null"  position="(1,2)" energy="50"
+world="[ 
+[ * 0 2 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * * * *  ]
+ ]"<NodoEat>Id="1" Action="Eat"  position="(1,2)" energy="50"
+world="[ 
+[ * 0 2 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * * * *  ]
+ ]"<NodoGoUp>Id="5" Action="GoUp"  position="(0,2)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * * * *  ]
+ ]"<NodoGoUp>Id="8" Action="GoUp"  position="(3,2)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * * 0 *  ]
+ ]"<NodoGoLeft>Id="11" Action="GoLeft"  position="(3,1)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * 0 0 *  ]
+ ]"<NodoGoLeft>Id="14" Action="GoLeft"  position="(3,0)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ 0 0 0 *  ]
+ ]"<NodoGoLeft>Id="18" Action="GoLeft"  position="(3,3)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoUp>Id="22" Action="GoUp"  position="(2,3)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 0  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoRight>Id="25" Action="GoRight"  position="(2,0)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 2 0 0  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoRight>Id="27" Action="GoRight"  position="(2,1)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 2 0 0  ]
+[ 0 0 0 0  ]
+ ]"<NodoEat>Id="29" Action="Eat"  position="(2,1)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoRight>Id="32" Action="GoRight"  position="(2,2)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoRight>Id="34" Action="GoRight"  position="(2,3)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoRight>Id="36" Action="GoRight"  position="(2,0)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoDown>Id="38" Action="GoDown"  position="(3,0)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoRight>Id="39" Action="GoRight"  position="(3,1)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoRight>Id="41" Action="GoRight"  position="(3,2)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoRight>Id="43" Action="GoRight"  position="(3,3)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoDown>Id="45" Action="GoDown"  position="(0,3)" energy="50"
+world="[ 
+[ * 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoRight>Id="46" Action="GoRight"  position="(0,0)" energy="50"
+world="[ 
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoRight><NodoGoDown>Id="47" Action="GoDown"  position="(1,3)" energy="50"
+world="[ 
+[ * 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoDown></NodoGoDown></NodoGoRight><NodoGoDown>Id="44" Action="GoDown"  position="(0,2)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoDown></NodoGoRight><NodoGoDown>Id="42" Action="GoDown"  position="(0,1)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoDown></NodoGoRight><NodoGoDown>Id="40" Action="GoDown"  position="(0,0)" energy="50"
+world="[ 
+[ 0 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoDown></NodoGoDown></NodoGoRight><NodoGoDown>Id="37" Action="GoDown"  position="(3,3)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoDown></NodoGoRight><NodoGoDown>Id="35" Action="GoDown"  position="(3,2)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoDown></NodoGoRight><NodoGoDown>Id="33" Action="GoDown"  position="(3,1)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoDown></NodoEat><NodoGoRight>Id="30" Action="GoRight"  position="(2,2)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 2 0 0  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoRight><NodoGoDown>Id="31" Action="GoDown"  position="(3,1)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 2 0 0  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoDown></NodoGoRight><NodoGoDown>Id="28" Action="GoDown"  position="(3,0)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 2 0 0  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoDown></NodoGoRight><NodoGoDown>Id="26" Action="GoDown"  position="(3,3)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 0  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoDown></NodoGoUp><NodoGoRight>Id="23" Action="GoRight"  position="(3,0)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoRight><NodoGoDown>Id="24" Action="GoDown"  position="(0,3)" energy="50"
+world="[ 
+[ * 0 0 0  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoDown></NodoGoLeft><NodoGoUp>Id="19" Action="GoUp"  position="(2,0)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ 0 2 0 *  ]
+[ 0 0 0 *  ]
+ ]"</NodoGoUp><NodoGoRight>Id="20" Action="GoRight"  position="(3,1)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ 0 0 0 *  ]
+ ]"</NodoGoRight><NodoGoDown>Id="21" Action="GoDown"  position="(0,0)" energy="50"
+world="[ 
+[ 0 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ 0 0 0 *  ]
+ ]"</NodoGoDown></NodoGoLeft><NodoGoUp>Id="15" Action="GoUp"  position="(2,1)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 0 0 *  ]
+[ * 0 0 *  ]
+ ]"</NodoGoUp><NodoGoRight>Id="16" Action="GoRight"  position="(3,2)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * 0 0 *  ]
+ ]"</NodoGoRight><NodoGoDown>Id="17" Action="GoDown"  position="(0,1)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * 0 0 *  ]
+ ]"</NodoGoDown></NodoGoLeft><NodoGoRight>Id="12" Action="GoRight"  position="(3,3)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * * 0 0  ]
+ ]"</NodoGoRight><NodoGoDown>Id="13" Action="GoDown"  position="(0,2)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * * 0 *  ]
+ ]"</NodoGoDown></NodoGoUp><NodoGoRight>Id="9" Action="GoRight"  position="(0,3)" energy="50"
+world="[ 
+[ * 0 0 0  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * * * *  ]
+ ]"</NodoGoRight><NodoGoDown>Id="10" Action="GoDown"  position="(1,2)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * * * *  ]
+ ]"</NodoGoDown></NodoGoUp><NodoGoRight>Id="6" Action="GoRight"  position="(1,3)" energy="50"
+world="[ 
+[ * 0 2 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * * * *  ]
+ ]"</NodoGoRight><NodoGoDown>Id="7" Action="GoDown"  position="(2,2)" energy="50"
+world="[ 
+[ * 0 2 *  ]
+[ 0 0 0 0  ]
+[ * 2 0 *  ]
+[ * * * *  ]
+ ]"</NodoGoDown></NodoEat><NodoGoUp>Id="2" Action="GoUp"  position="(0,2)" energy="50"
+world="[ 
+[ * 0 0 *  ]
+[ 0 0 2 0  ]
+[ * 2 0 *  ]
+[ * * * *  ]
+ ]"</NodoGoUp><NodoGoRight>Id="3" Action="GoRight"  position="(1,3)" energy="50"
+world="[ 
+[ * 0 2 *  ]
+[ 0 0 2 0  ]
+[ * 2 0 *  ]
+[ * * * *  ]
+ ]"</NodoGoRight><NodoGoDown>Id="4" Action="GoDown"  position="(2,2)" energy="50"
+world="[ 
+[ * 0 2 *  ]
+[ 0 0 2 0  ]
+[ * 2 0 *  ]
+[ * * * *  ]
+ ]"</NodoGoDown></Nodonull>

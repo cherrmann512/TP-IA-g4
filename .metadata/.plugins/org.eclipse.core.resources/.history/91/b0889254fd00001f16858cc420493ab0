@@ -1,0 +1,31 @@
+<Nodonull>Id="0" Action="null"  position="(2,2)" energy="50"
+world="[ 
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 *  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoRight>Id="1" Action="GoRight"  position="(2,2)" energy="50"
+world="[ 
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 *  ]
+[ 0 0 0 0  ]
+ ]"<NodoGoRight>Id="3" Action="GoRight"  position="(2,3)" energy="50"
+world="[ 
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoRight><NodoGoDown>Id="4" Action="GoDown"  position="(3,2)" energy="50"
+world="[ 
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 *  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoDown></NodoGoRight><NodoGoDown>Id="2" Action="GoDown"  position="(3,1)" energy="50"
+world="[ 
+[ 0 0 0 0  ]
+[ 0 0 0 0  ]
+[ 0 0 0 *  ]
+[ 0 0 0 0  ]
+ ]"</NodoGoDown></Nodonull>

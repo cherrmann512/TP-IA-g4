@@ -1,0 +1,24 @@
+package monitores.ejercicio8;
+
+public class Bar { //se puede hacer con synchronized?
+	private int pizzasGrandes;
+	
+	public Bar(int pizzasGrandes) {
+		this.pizzasGrandes = pizzasGrandes;
+	}
+	
+	public synchronized String obtenerPizza() {
+		if(pizzasGrandes >0) {
+			pizzasGrandes--;
+			return"pizza Grande";
+		}
+		else
+			return "Dos pizzas pequeñas";
+		}
+	
+	public synchronized void reponnerPizza() {
+		pizzasGrandes++;
+	}
+	
+	
+}

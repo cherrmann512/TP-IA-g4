@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="monitores.ejercicio2.SecuenciadorTernario"/>
+    <fullyQualifiedTypeName name="monitores.ejercicio2.Hilo"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="monitores.ejercicio3.Barrera"/>
+    <fullyQualifiedTypeName name="monitores.ejercicio3.Hilo"/>
+    <fullyQualifiedTypeName name="monitores.ejercicio5.Cliente"/>
+    <fullyQualifiedTypeName name="monitores.ejercicio5.Peluqueria"/>
+    <fullyQualifiedTypeName name="monitores.ejercicio5.Peluquero"/>
+    <fullyQualifiedTypeName name="monitores.ejercicio5.Pelu"/>
+    <fullyQualifiedTypeName name="monitores.ejercicio6.Orador"/>
+    <fullyQualifiedTypeName name="monitores.ejercicio6.Charla"/>
+    <fullyQualifiedTypeName name="monitores.ejercicio6.Persona"/>
+    <fullyQualifiedTypeName name="semaforos.ejercicio5.Principal"/>
+    <fullyQualifiedTypeName name="semaforos.ejercicio5.ProcesoA2"/>
+    <fullyQualifiedTypeName name="java.security.Principal"/>
+    <fullyQualifiedTypeName name="semaforos.ejercicio5.PrincipalB"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="semaforos.ejercicio6.Proceso1"/>
+    <fullyQualifiedTypeName name="semaforos.ejercicio6.Principal"/>
+    <fullyQualifiedTypeName name="java.lang.Package"/>
+    <fullyQualifiedTypeName name="semaforos.ejercicio7.Transbordador"/>
+    <fullyQualifiedTypeName name="semaforos.ejercicio7.Persona"/>
+    <fullyQualifiedTypeName name="semaforos.ejercicio9.Generador"/>
+    <fullyQualifiedTypeName name="semaforos.ejercicio9.Consumidor"/>
+    <fullyQualifiedTypeName name="semaforos.ejercicio9.App"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.locks.Lock"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.locks.Condition"/>
+    <fullyQualifiedTypeName name="monitores.ejercicio9.Bote"/>
+    <fullyQualifiedTypeName name="monitores.ejercicio9.Persona"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.locks.ReentrantLock"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.atomic.AtomicMarkableReference"/>
+    <fullyQualifiedTypeName name="semaforos.ejercicio10.Principal"/>
+    <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+    <fullyQualifiedTypeName name="semaforos.ejercicio10.Vehiculo"/>
+    <fullyQualifiedTypeName name="semaforos.ejercicio10.MaquinaProceso"/>
+    <fullyQualifiedTypeName name="semaforos.parcial.Visitante"/>
+    <fullyQualifiedTypeName name="semaforos.parcial.Colaboradores"/>
+    <fullyQualifiedTypeName name="semaforos.parcial.App"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.Semaphore"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="parcial.semaforos.Hilo"/>
+</qualifiedTypeNameHistroy>

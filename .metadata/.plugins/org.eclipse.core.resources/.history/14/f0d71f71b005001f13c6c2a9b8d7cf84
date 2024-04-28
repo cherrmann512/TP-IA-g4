@@ -1,0 +1,112 @@
+package impostor;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashMap;
+
+import frsf.cidisi.faia.agent.Perception;
+import frsf.cidisi.faia.agent.search.SearchBasedAgentState;
+
+public class ImpostorAgentState extends SearchBasedAgentState{
+
+	public static final String Administration = "Administration";
+	public static final String Cafeteria = "Cafeteria";
+	public static final String Communications = "Communications";
+	public static final String Electrical = "Electrical";
+	public static final String Hallway1 = "Hallway1";
+	public static final String Hallway2 = "Hallway2";
+	public static final String Hallway3 = "Hallway3";
+	public static final String Hallway4 = "Hallway4";
+	public static final String Hallway5 = "Hallway5";
+	public static final String Hallway6 = "Hallway6";
+	public static final String Hallway7 = "Hallway7";
+	public static final String LowerEngine = "LowerEngine";
+	public static final String Medbay = "Medbay";
+	public static final String Navigation = "Navigation";
+	public static final String Oxygen = "Oxygen";
+	public static final String Reactor = "Reactor";
+	public static final String Security = "Security";
+	public static final String Shields = "Shields";
+	public static final String Storage = "Storage";
+	public static final String UpperEngine = "UpperEngine";
+	public static final String Weapons = "Weapons";
+	
+	private HashMap<String, Collection<String>> map;
+	
+	
+    public static final String[][] POSITIONS = new String[][]{
+        {Administration, Hallway4},
+        {Cafeteria, Hallway1, Hallway2, Hallway3},
+        {Communications, Hallway7},
+        {Electrical, Hallway6},
+        {LowerEngine, Hallway3, Hallway6},
+        {Medbay, Hallway1},
+        {Navigation, Hallway5},
+        {Oxygen,Hallway5},
+        {Reactor, Hallway3},
+        {Security,Hallway3},
+        {Shields, Hallway5, Hallway7},
+        {Storage, Hallway4, Hallway6, Hallway7},
+        {UpperEngine, Hallway1, Hallway3},
+        {Weapons, Hallway2, Hallway5},
+        {Hallway1, UpperEngine, Medbay, Cafeteria},
+        {Hallway2, Cafeteria, Weapons},
+        {Hallway3, UpperEngine, LowerEngine, Reactor, Security},
+        {Hallway4, Administration, Cafeteria, Storage},
+        {Hallway5, Oxygen, Navigation, Shields, Weapons},
+        {Hallway6, Electrical, LowerEngine, Storage},
+        {Hallway7, Communications, Shields, Storage}
+    };
+	/**
+     * Actual agent position
+     */
+    String posicionAgente;
+    private int tripulantesVivos;
+    private int tareas;
+    private int enrgia;
+    
+    
+    public ImpostorAgentState(HashMap<String, Collection<String>> map, int tripulantesVivos, int tareas, int energia) {
+    	this.map = map;
+    	this.tripulantesVivos = tripulantesVivos;
+    	this.tareas = tareas;
+    	this.enrgia = energia;
+    }
+
+	
+	
+	@Override
+	public boolean equals(Object obj) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public SearchBasedAgentState clone() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void updateState(Perception p) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	@Override
+	public void initState() {
+		// TODO Auto-generated method stub
+		map = new HashMap<String, Collection<String>>();
+        
+        for (int i = 0; i < POSITIONS.length; i++) {
+            ArrayList<String> successors = new ArrayList<String>();
+            for (int j = 1; j < POSITIONS[i].length; j++) {
+                successors.add(POSITIONS[i][j]);
+            }
+            map.put(POSITIONS[i][0], successors);
+
+        }
+	}
+
+}

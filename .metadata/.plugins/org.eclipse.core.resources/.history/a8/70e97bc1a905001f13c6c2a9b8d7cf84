@@ -1,0 +1,7 @@
+package impostor;
+
+import frsf.cidisi.faia.agent.search.GoalTest;
+
+public class ImpostorGoal extends GoalTestl{
+
+}

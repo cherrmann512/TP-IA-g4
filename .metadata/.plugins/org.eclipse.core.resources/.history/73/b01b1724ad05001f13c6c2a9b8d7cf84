@@ -1,0 +1,47 @@
+package impostor;
+
+import frsf.cidisi.faia.agent.Action;
+import frsf.cidisi.faia.agent.Perception;
+import frsf.cidisi.faia.environment.Environment;
+import frsf.cidisi.faia.examples.search.pacman.PacmanEnvironmentState;
+
+public class ImpostorEnvironment extends Environment{
+
+	private int agentEnergy;
+	
+	
+	@Override
+	public Perception getPercept() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+	public boolean agentFailed(Action actionReturned) {
+
+        ImpostorEnviromentState impostorEnvironmentState =
+                this.getEnvironmentState();
+
+        int agentEnergy = impostorEnvironmentState.getAgentEnergy();
+
+        // FIXME: The pacman agent always has the same energy
+        // If the agent has no energy, he failed
+        if (agentEnergy <= 0)
+            return true;
+
+        return false;
+    }
+
+
+	public int getAgentEnergy() {
+		return agentEnergy;
+	}
+
+
+	public void setAgentEnergy(int agentEnergy) {
+		this.agentEnergy = agentEnergy;
+	}
+	
+	
+
+}

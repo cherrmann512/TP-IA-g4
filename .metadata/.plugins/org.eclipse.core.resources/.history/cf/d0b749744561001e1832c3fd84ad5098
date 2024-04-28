@@ -1,0 +1,31 @@
+package monitores.ejercicio8;
+
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
+public class Bar { //se puede hacer con synchronized?
+	private int pizzasGrandes;
+	
+	public Bar(int pizzasGrandes) {
+
+		this.pizzasGrandes = pizzasGrandes;
+	}
+	
+	public synchronized void obtenerPizza() {
+		if(pizzasGrandes >0) {
+			System.out.println("pizza Grande");
+			pizzasGrandes--;
+		}
+		else
+			System.out.println("Dos pizzas pequeñas");
+		}
+	
+	public synchronized void reponnerPizza() {
+		pizzasGrandes++;
+	}
+	
+	
+	
+	
+}
